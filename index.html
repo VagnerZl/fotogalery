@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav>
+      <select class="select" name="selectCate">
+        <option selected disabled>Выберите категорию</option>
+      </select>
+    </nav>
+
+    <main></main>
+
+    <footer></footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBzE9HG57kIZso_cXNlTI_iEKlfqGksilQ",
+        authDomain: "new-galery-db13c.firebaseapp.com",
+        projectId: "new-galery-db13c",
+        storageBucket: "new-galery-db13c.appspot.com",
+        messagingSenderId: "369354968898",
+        appId: "1:369354968898:web:5d896fce813a1a572582db",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
